@@ -1,0 +1,21 @@
+import java.util.Scanner;
+
+public class AgendaContato {
+
+    public static void main(String[] args) {
+
+        Scanner sc = new Scanner(System.in);
+
+        System.out.println("Nome do contato:");
+        String nome = sc.nextLine();
+
+        System.out.println("Telefone:");
+        String telefone = sc.nextLine();
+
+        System.out.println("\nContato Salvo");
+        System.out.println(nome);
+        System.out.println(telefone);
+
+        sc.close();
+    }
+}
